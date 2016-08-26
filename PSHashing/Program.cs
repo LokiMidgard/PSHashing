@@ -13,7 +13,7 @@ namespace PSHashing
     /// <summary>
     /// Calculates Hashes for specified input.
     /// </summary>
-    [Cmdlet(VerbsDiagnostic.Measure, "Hash", DefaultParameterSetName = "FileInput")]
+    [Cmdlet(VerbsDiagnostic.Measure, "Hash", DefaultParameterSetName = "FileInput",HelpUri = "https://github.com/LokiMidgard/PSHashing")]
     public class Hash : Cmdlet
     {
 
